@@ -1,317 +1,262 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <title> The Glass Huts </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>АМАКС Шахтёр</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-  <div class="container">
+	
     <header class="header">
-      <div class="header_logo">
-        <div class="logo">
-          <img src="img/logo_the_glass_huts.svg" alt="logo_the_glass_huts">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="#!">
+                        <img src="./img/header/header-logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header__hotel-list">
+                    <button class="hotel__btn hotel__title">
+                        Санаторий «АМАКС Шахтёр», <span class="hotel__title--span">курорт Ессентуки</span>
+                    </button>
+                    <ul class="hotel__list">
+                        <li class="hotel__list--item hotel__title">
+                            Санаторий «АМАКС Шахтёр», <span class="hotel__title--span">курорт Ессентуки</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__hotel-connect">
+                    <p class="hotel-connect__text">Россия, Ставропольский край, г. Ессентуки, ул. Баталинская,9</p>
+                    <p class="hotel-connect__number">8(87934)0-10-52</p>
+                </div>
+                <div class="header__functions">
+                    <a href="#!">
+                        <div class="header__function-vision">
+                            <img src="./img/header/icon-eyes.svg" alt="pic-loop" class="icon--loop">
+                            <p class="header__vision-text">Версия для <br> слабовидящих</p>
+                        </div>
+                    </a>  
+                    <div class="header__site-language">
+                        <button class="language__btn language__text">Ру</button>
+                        <ul class="language__list">
+                            <li class="language__list--item language__text">Ру</li>
+                            <li class="language__list--item language__text">EN</li>
+                            <li class="language__list--item language__text">JP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="header__row">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#!" class="nav__item--link">Об отеле</a>
+                            <ul>
+                                <li class="nav__item"><a href="#!" class="item--custom">Санаторий Шахтёр</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="#!">Бронирование</a></li>
+                        <li class="nav__item"><a href="#!">Номера и цены</a></li>
+                        <li class="nav__item"><a href="#!">Рестораны</a></li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__item--link">Мероприятия</a>
+                            <ul>
+                                <li class="nav__item"><a href="#!" class="item--custom">Расписание Мероприятий</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="#!">Спецпредложения</a></li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__item--link">Услуги</a>
+                            <ul>
+                                <li class="nav__item"><a href="#!" class="item--custom">Цены на услуги</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__item--link">Управляющая компания</a>
+                            <ul>
+                                <li class="nav__item"><a href="#!" class="item--custom">Контакты</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header_menu">
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="pages/hut.html">THE HUT</a></li>
-            <li><a href="pages/area.html">THE AREA</a></li>
-            <li><a href="pages/faq.html">FAQ</a></li>
-          </ul>
+        <div class="header__burger">
+            <span></span>
         </div>
-      </div>
-      <div class="header_button">
-        <button class="button">
-          <span class="button-text"> BOOK NOW</span>
-        </button>
-      </div>
     </header>
-
-    <div class="main">
-      <div class="main_content">
-        <img src="img/main_the_glass_huts.png" alt="The glass Huts" class="main_content_img">
-        <h1 class="main_content_title"> Find peace in the Forest</h1>
-        <p class="main_content_text"> Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
-        <div class="main_content_price">
-          <button class="button">
-            <span class="button-text"> BOOK NOW</span>
-          </button>
-          <div class="main_content_price_night">
-            <p class="main_content_price_night_from"> from
-            </p>
-            <p class="main_content_price_night_money"> €3.200
-            </p>
-            <p class="main_content_price_night_night"> per night
-            </p>
-          </div>
+    <main>
+        <section class="discount">
+            <div class="banner__content"></div>
+            <div class="banner__transition"></div>
+            <div class="container">
+                <h1 class="discount__title">Только 27 ноября Крупнейшая распродажа года на все виды путёвок</h1>
+                <ul class="discount__cards">
+					<li class="discount__card">
+						<h2 class="card__title">Скидка</h2>
+						<span class="card__discount">30%</span>
+                        <p class="card__text">на все виды путевок</p>
+                    </li>
+                    <li class="discount__card">
+						<h2 class="card__title">Кешбэк</h2>
+						<span class="card__discount">20%</span>
+                        <p class="card__text">стоимости путевки</p>
+					</li>
+                    <li class="discount__card">
+						<h2 class="card__title">Ваша</h2>
+						<span class="card__discount card__discount--itog">50%</span>
+                        <p class="card__text">итоговая скидка</p>
+					</li>
+                </ul>
+            </div>
+        </section>
+        <section class="dates">
+            <div class="container">
+                <h1 class="date__title">Доступные даты отдыха</h1>
+                <ul class="date__cards">
+					<li class="date__card">
+						<img src="./img/discount_date/icon-date.svg" alt="image" class="date__pic">
+                        <p class="date__text"><b>27</b> ноября – <b>28</b> декабря 2020 г.</p>
+                    </li>
+                    <li class="date__card">
+						<img src="./img/discount_date/icon-date.svg" alt="image" class="date__pic">
+                        <p class="date__text"><b>11</b> января – <b>28</b> февраля 2021 г.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="timer">
+            <div class="timer__img--left">
+                <img src="./img/timer/arrow-left.png" alt="image" class="img__arrow">
+            </div>           
+            <div class="container">
+                <div class="timer__content">
+                    <h1 class="timer__title">До начала распродажи осталось</h1>
+                    <ul class="timer__dial">
+                        <li class="dial--meaning">
+                            <ul class="meaning__items--days">
+                                <li class="meaning__item"><span class="item--number">0</span></li>
+                                <li class="meaning__item"><span class="item--number">1</span></li>
+                                <li class="meaning__item"><span class="item--number">3</span></li>
+                            </ul>
+                            <p class="meaning__text">Дней</p>
+                        </li>
+                        <li class="dial--probel">:</li>
+                        <li class="dial--meaning">
+                            <ul class="meaning__items">
+                                <li class="meaning__item"><span class="item--number">1</span></li>
+                                <li class="meaning__item"><span class="item--number">7</span></li>
+                            </ul>
+                            <p class="meaning__text">Часов</p>
+                        </li>
+                        <li class="dial--probel">:</li>
+                        <li class="dial--meaning">
+                            <ul class="meaning__items">
+                                <li class="meaning__item"><span class="item--number">0</span></li>
+                                <li class="meaning__item"><span class="item--number">9</span></li>
+                            </ul>
+                            <p class="meaning__text">Минут</p>
+                        </li>
+                        <li class="dial--probel">:</li>
+                        <li class="dial--meaning">
+                            <ul class="meaning__items">
+                                <li class="meaning__item"><span class="item--number">5</span></li>
+                                <li class="meaning__item"><span class="item--number">7</span></li>
+                            </ul>
+                            <p class="meaning__text">Секунд</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timer__img--right">
+                <img src="./img/timer/arrow-right.png" alt="image" class="img__arrow">
+            </div>
+        </section>  
+        <section class="info">
+            <div class="container">
+                <div class="info__black--friday">
+                    <p class="black--friday__text">
+                        Black Friday или Черная пятница – это ставшая уже традиционной, глобальная распродажа, скидки до 50%! На Блэк Фрэйдэй вы имеете возможность
+        получить хорошие скидки. <a href="#!" class="
+        info__full--version">Раскрыть полностью</a> 
+                    </p>
+                    <h2 class="black--friday__title">Черная пятница или Вlаск Fridау - что же это?</h2>
+                    <p class="black--friday__text">Для некоторых людей, которые не представляют свою жизнь без шоппинга, это как манна небесная. Распродажа Black Friday была придумана в США. Обычно это
+                        происходит после дня благодарения. Акция имела поразительный эффект и поэтому такой способ продаж получил всемирное признание.
+                    </p>
+                </div>
+                <div class="info__new--year">
+                    <div class="info__new--year__description">
+                        <p class="new--year__text">
+                            А ведь скоро Новый год и вашим любимым, близким и друзьям нужно прикупить подарки. Отличная возможность сохранить бюджет и подготовиться к главному празднику
+Года и провести его вместе с нами на нашем курорте.
+                        </p>
+                    </div>
+                    <h2 class="info__farewell">Ждём Вас в санатории «Шахтёр»!</h2>
+                </div>
+            </div>
+        </section>
+        <section class="mailing">
+            <div class="mailing__img">
+                <img src="./img/mailing/black-friday.png" alt="Image" class="img__black--friday">
+            </div>
+            <div class="mailing__feedback">
+                <h2 class="feedback__title">Подписаться на рассылку об акциях</h2>
+                <form class="feedback__form">
+                    <input type="text" class="feedback__form--input" placeholder="Ваше имя">
+                    <input type="email" class="feedback__form--input" placeholder="Email">
+                    <input type="text" class="feedback__form--input" placeholder="Номер телефона">
+                    <button class="feedback__form--btn">Подписаться</button>
+                </form>
+                <div class="feedback__form--checkbox">
+                    <label class="form--checkbox">
+                        <input type="checkbox" class="real--checkbox">
+                        <span class="custom--checkbox"></span>
+                        <span class="form--checkbox__text">
+                            Я соглашаюсь на обработку персональных данных в соответствии с условиями <a href="#!" class="form--checkbox__link"><span class="text--underline">безопасности и политики конфиденциальности</span></a>
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav__footer">
+                <div class="nav__logo">
+                    <a href="#!">
+                        <img src="./img/footer/footer-logo.png" alt="logo" class="logo__footer">
+                    </a>
+                </div>
+                <ul class="nav__list--footer">
+                    <li class="list--footer">
+                        <p class="footer__site--home"><a href="#!" class="footer--link">«AMAKS Hotels & Resorts»</a></p>
+                        <p class="footer__site--text">© 2002 - 2020 Официальный сайт</p>
+                        <p class="footer__save--info"><a href="#!" class="footer--link">Безопасность и политика конфиденциальности</a></p>
+                        <p class="footer__save--info"><a href="#!" class="footer--link">Вернуться на старую версию сайта</a></p>
+                    </li>
+                </ul>
+                <ul class="nav__list--footer">
+                    <li class="list--footer">
+                        <p class="footer__hotel--adress">Россия, г. Ессентуки, ул. Баталинская,9</p>
+                        <p class="footer__phone--number">8 (87934) 4-28-51</p>
+                        <p class="footer__email">E-mail: <a href="#!" class="footer--link">bron.shaxter@amaks-hotels.ru</a></p>
+                    </li>
+                </ul>
+                <div class="nav__logo--company">
+                    <div class="logo--company__text">
+                        <p class="footer__text--company">Разработка и дизайн</p>
+                        <p class="footer__name--company">TRAVELLINE</p>
+                    </div>
+                    <a href="#!">
+                        <img src="./img/footer/footer-logo-company.png" alt="logo" class="logo--company">
+                    </a>
+                </div>
+            </nav>
         </div>
-      </div>
-      <div class="main_article">
-        <div class="main_article_content">
-          <h2 class="main_article_content_title">
-            The Cabins
-          </h2>
-          <p class="main_article_content_text">
-            Løvtag`s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen.
-            They all have
-            an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the
-            roof,
-            surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built
-            around tall,
-            old trees that go through the entire cottage from floor to ceiling.
-          </p>
-        </div>
-        <div class="main_map_screen">
-          <img src="img/article_img.png" alt="The Cabins">
-        </div>
-
-      </div>
-      <div class="main_photo-album">
-        <img src="img/card_the_glass_home.png" alt="The glass huts">
-        <img src="img/card_hotel.png" alt="The glass hotel">
-        <img src="img/card_the_glass_huts_video.png" alt="The glass huth video">
-      </div>
-
-
-      <div class="main_article">
-        <div class="main_article_map-img">
-          <img src="img/map.png" alt="The Forest">
-        </div>
-        <div class="main_article_map">
-          <h2 class="main_article_content_title">
-            The Forest
-          </h2>
-          <p class="main_article_content_text">
-            Løvtag`s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen.
-            They all have
-            an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the
-            roof,
-            surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built
-            around tall,
-            old trees that go through the entire cottage from floor to ceiling.
-          </p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-
-      <div class="main_facilities">
-        <h3 class="main_facilities_title"> Facilities </h3>
-
-        <div class="main_facilities_cards">
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/fridge.svg" alt="fridge">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Mini fridge</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/kitchen.svg" alt="kitchenette">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Kitchenette</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/coffee.svg" alt="coffee machine">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Coffee machine</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/tea.svg" alt="electric tea kettle">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Electric tea kettle</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/park.svg" alt="Parking">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Parking</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/trees.svg" alt="Breathtaking views">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Breathtaking views</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/temperature.svg" alt="floor heating">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Floor heating</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/plug.svg" alt="230V">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> 230V</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/wifi.svg" alt="WiFi">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> WiFi</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/shower.svg" alt="shower">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Shower</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/toilet.svg" alt="flushing toilets">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Flushing toilets</p>
-            </div>
-          </div>
-
-          <div class="main_facilities_cards_card">
-            <div class="main_facilities_cards_card_img">
-              <img src="img/facilities/towels.svg" alt="bedding & towels">
-            </div>
-            <div class=" main_facilities_cards_card_text">
-              <p> Bedding & towels</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="main_foto">
-        <div class="main_foto_img">
-          <img src="img/foto_the_cabins.png" alt="foto the cabins">
-        </div>
-        <div class="main_foto_img">
-          <img src="img/foto_panorama_glass_lodge.png" alt="foto panorama glass lodge">
-        </div>
-        <div class="main_foto_about-us">
-          <button class="button_about-us">
-            <span> MORE ABOUT US</span>
-          </button>
-        </div>
-
-      </div>
-      <div class="main_contact">
-        <div class="main_contact_title">
-          <h3>STAY IN TOUCH WITH US</h3>
-          <p class="main_article_content_text">Vesterborg, Denmark </p>
-          <div class="main_contact_phone-email">
-            <ul>
-              <li>
-                <p class="main_article_content_text"> +123 456 789 000</p>
-              </li>
-              <li>
-                <p class="main_article_content_text"> info@theglasshuts.com</p>
-              </li>
-
-            </ul>
-            <div class="main_contact_social">
-              <a href="#"> <img src="img/contact/instagram.svg" alt="Instagram"></a>
-              <a href="#"> <img src="img/contact/facebook.svg" alt="Facebook"></a>
-              <a href="#"> <img src="img/contact/twitter.svg" alt="Twitter"></a>
-            </div>
-          </div>
-
-        </div>
-        <div class="main_contact_price">
-          <div class="main_contact_price_img">
-            <img src="img/foto_Panorama-Glass-Lodge.png" alt="ponorama glass lodge">
-          </div>
-          <div class="main_contact_price_button">
-            <button class="button">
-              <span class="button-text"> BOOK NOW</span>
-            </button>
-            <div class="main_content_price_night">
-              <p class="main_content_price_night_from"> from
-              </p>
-              <p class="main_content_price_night_money"> €3.200
-              </p>
-              <p class="main_content_price_night_night"> per night
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer">
-        <div class="footer_news">
-          <div class="footer_news_title">
-            <p>Newsletter</p>
-          </div>
-          <div class="header_menu">
-            <ul>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="footer_email-pay">
-          <div class="footer_email-pay_email">
-            <form>
-              <input type="text" name="Email" placeholder="Email">
-              <button type="submit" class="form-button">
-                <img src="img/email-adress_button.svg" alt="Adrdess-button">
-              </button>
-            </form>
-          </div>
-          <div class="footer_email-pay_pay">
-            <img src="img/pay.svg" alt="pay">
-          </div>
-        </div>
-
-        <div class="footer_email-pay_title">
-          <p class="footer_email-pay_text">
-            Sign up to our newsletter for special things and receive 10% off your next order.
-          </p>
-        </div>
-
-        <div class="footer_link">
-          <p class="footer_text">
-            © 2021 The Glass Huts
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+    </footer>
 </body>
-
 </html>
